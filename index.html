@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebAppz xyz | Home Page</title>
-    <script defer="" src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="stylesheet" href="./assets/index.7e9a85ee.css">
+    <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+    <link rel="stylesheet" href="./assets/index.5896df73.css">
 
 
     
@@ -260,22 +260,22 @@
         </div>
       </div>
 
-      <div class="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+      <div class="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3 text-gray-800">
         <form action="https://formspree.io/f/xyyojygz" class="space-y-4" method="POST"> 
           <div>
             <label class="sr-only" for="name">Name</label>
-            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" id="name">
+            <input name="name" class="text-blue-800 w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" id="name">
           </div>
 
           <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
               <label class="sr-only" for="email">Email</label>
-              <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Email address" type="email" id="email">
+              <input name="email" class="w-full text-blue-800 p-3 text-sm border-gray-200 rounded-lg" placeholder="Email address" type="email" id="email">
             </div>
 
             <div>
               <label class="sr-only" for="phone">Phone</label>
-              <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Phone Number" type="tel" id="phone">
+              <input name="phone" class="w-full text-blue-800 p-3 text-sm border-gray-200 rounded-lg" placeholder="Phone Number" type="tel" id="phone">
             </div>
           </div>
 
@@ -304,7 +304,7 @@
 
           <div>
             <label class="sr-only" for="message">Message</label>
-            <textarea class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Message" rows="8" id="message"></textarea>
+            <textarea name="message" class="w-full p-3 text-blue-800 prose border-gray-200 rounded-lg" placeholder="Message" rows="8" id="message"></textarea>
           </div>
 
           <div class="mt-4">
